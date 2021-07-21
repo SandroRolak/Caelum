@@ -1,0 +1,113 @@
+body {
+    color: #333333;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+header {
+    position: relative;
+
+}
+
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+
+    font-size: 14px;
+    padding-top: 8px;
+    padding-right: 35px;
+    text-align: right;
+    width: 140px;
+    
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.menu-opcoes {
+    margin-bottom: 6px;
+}
+
+.menu-opcoes ul {
+    font-size: 15px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes a {
+    color: hsl(210, 100%, 20%);
+}
+
+.menu-opcoes a:hover {
+    background-color: rgb(176, 224, 230)
+}
+
+.container {
+    margin: 0 auto;
+    width: 940px;
+}
+
+#rodape {
+    color: #777;
+    margin: 40px 0;
+    padding: 30px 0;
+    text-align: center;
+}
+
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;  
+}
+
+.busca,
+.menu-departamentos {
+    float: left
+}
+
+.menu-departamentos {
+    clear: left;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    background-color: rgba(33, 110, 56, 0.493);
+    color: #fff;
+    padding: 7px 5px;
+}
+
+.menu-departamentos {
+    background-color: rgba(16, 16, 16, 0.212);
+    width: 240px;
+    height: 100%;
+}
+
+.menu-departamentos ul {
+    font-size: 15px;
+    position: relative;
+}
+
+.menu-departamentos ul li {
+    padding: 15px 5px;
+}
+
+.menu-departamentos ul li:hover {
+    background-color: rgb(176, 224, 230)
+}
+
+.menu-departamentos a {
+    display: block;
+    color: rgb(95, 92, 92);
+    padding: 8.2px 0;
+}
