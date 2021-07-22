@@ -29,37 +29,153 @@
             </ul>
         </nav>
     </header>
-
     
-    <main class="container">
-        <form class="busca">
-            <input type="text" placeholder="Busca por produto" name="busca">
+    <div class="container destaque">
+        <section class="busca">
+            <h2>Busca</h2>
+
+        <form>
+            <input type="search">
             <button>Buscar</button>
         </form>
+        
+        </section>
+        <!-- fim .busca -->
+        
+        <section class="menu-departamentos">
+            <h2>Departamentos</h2>
+        
+            <nav>
+                <ul>
+                    <li><a href="#">Blusas e Camisas</a></li>
+                    <li><a href="#">Calças</a></li>
+                    <li><a href="#">Saias</a></li>
+                    <li><a href="#">Vestidos</a></li>
+                    <li><a href="#">Sapatos</a></li>
+                    <li><a href="#">Bolsas e Carteiras</a></li>
+                    <li><a href="#">Acessórios</a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- fim .menu-departamentos -->
 
-        <nav class="menu-departamentos">
-            <input type="checkbox" id="chec">
-            <label for="chec">
-                DEPARTAMENTOS
-            </label>
-            <ul>
-                <li><a href="">BLUSAS E CAMISAS</a></li>
-                <li><a href="">CALÇAS</a></li>
-                <li><a href="">SAIAS</a></li>
-                <li><a href="">VESTIDOS</a></li>
-                <li><a href="">SAPATOS</a></li>
-                <li><a href="">BOLSAS E CARTEIRAS</a></li>
-                <li><a href="">ACESSÓRIOS</a></li>
-            </ul>
-        </nav>
-        <figure>
-            <img src="img/destaque-home.png" alt="Destaque home">
+        <section class="banner-destaque">
+            <figure>
+                <img src="img/destaque-home.png" alt="Promoção: Big City Night">
         </figure>
-    </main>
+        </section>
+        <!-- fim .banner-destaque -->
+        
+    </div>
+        <!-- fim .container .destaque -->
+    
+    <div class="container paineis">
+        <section class="painel novidades">
+        <h2>Novidades</h2>
+            <ol>
+                <li><a href="produto.html">
+                    <figure>
+                        <img src="img/produtos/miniatura1.png" alt="Miniatura1">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                    </a>
+                </li>
+                <li><a href="produto.html">
+                    <figure>
+                        <img src="img/produtos/miniatura4.png" alt="Miniatura4">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                    </a>
+                </li>
+                <li><a href="produto.html">
+                    <figure>
+                        <img src="img/produtos/miniatura2.png" alt="Miniatura2">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                    </a>
+                </li>                <li><a href="produto.html">
+                    <figure>
+                        <img src="img/produtos/miniatura8.png" alt="Miniatura8">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                    </a>
+                </li>                
+                <li><a href="produto.html">
+                    <figure>
+                        <img src="img/produtos/miniatura5.png" alt="Miniatura5">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                    </a>
+                </li>                
+                <li><a href="produto.html">
+                    <figure>
+                        <img src="img/produtos/miniatura9.png" alt="Miniatura9">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                    </a>
+                </li>     
+            </ol>
+        </section>
+
+        <section class="painel mais-vendidos">
+            <h2>Mais Vendidos</h2>
+            <ol>
+                <li><a href="produto.html">
+                    <figure>
+                        <img src="img/produtos/miniatura1.png" alt="Miniatura1">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                    </a>
+                </li>
+                <li><a href="produto.html">
+                    <figure>
+                        <img src="img/produtos/miniatura2.png" alt="Miniatura2">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                    </a>
+                </li>
+                <li><a href="produto.html">
+                    <figure>
+                        <img src="img/produtos/miniatura3.png" alt="Miniatura3">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                    </a>
+                </li>
+                <li><a href="produto.html">
+                    <figure>
+                        <img src="img/produtos/miniatura4.png" alt="Miniatura4">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                    </a>
+                </li>
+                <li><a href="produto.html">
+                    <figure>
+                        <img src="img/produtos/miniatura5.png" alt="Miniatura5">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                    </a>
+                </li>
+                <li><a href="produto.html">
+                    <figure>
+                        <img src="img/produtos/miniatura6.png" alt="Miniatura6">
+                        <figcaption>Fuzz Cardigan por R$129,90</figcaption>
+                    </figure>
+                    </a>
+                </li>
+            </ol>
+        </section>
+    </div>
 
     <footer id="rodape">
-        <img src="img/logo.png" alt="Logo da Mirror Fashion">
-        &copy; 2021 <a href="http://www.mirrorfashion.com.br">Mirror Fashion</a>. Todos os direitos reservados.
+        <div class="container">
+            <img src="img/logo.png" alt="Logo da Mirror Fashion">
+.
+            <ul class="social">
+                <li><a href="http://facebook.com/mirrorfashion">Facebook</a></li>
+                <li><a href="http://twitter.com/mirrorfashion">Twitter</a></li>
+                <li><a href="http://plus.google.com/mirrorfashion">Google+</a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>
